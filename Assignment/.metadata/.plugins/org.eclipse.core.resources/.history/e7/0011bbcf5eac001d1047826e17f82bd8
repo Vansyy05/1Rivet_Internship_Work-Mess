@@ -1,0 +1,37 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class Banking1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int choose=sc.nextInt();
+		System.out.println("Choose Option");
+		System.out.println("1. Create Account");
+		System.out.println("2. Deposit");
+		System.out.println("3. Withdraw");
+		System.out.println("4. Check Balance");
+		System.out.println("5. Exit");
+		System.out.println("");
+		switch (choose){
+		case 1:
+			System.out.println("1. Create Account:");
+			break;
+		case 2:
+			System.out.println("2. Deposit");
+			break;
+		case 3:
+			System.out.println("3. Withdraw");
+			break;
+		case 4:
+			System.out.println("4. Available Balance:");
+			break;
+		case 5:
+			System.out.println("5. Exit");
+			break;
+			
+		}
+	}
+
+}

@@ -1,0 +1,74 @@
+package com.program;
+
+import java.util.Scanner;
+public class BankingApp {
+	public static void main(String[] args) {
+			Scanner sc=new Scanner(System.in);
+			// Printing option
+			System.out.println("Welcome to Banking Application");
+			System.out.println("Choose Option");
+			System.out.println("1. Create Account");
+			System.out.println("2. Deposit");
+			System.out.println("3. Withdraw");
+			System.out.println("4. Check Balance");
+			System.out.println("5. Exit");
+			System.out.println("");
+			// Condition when user choose any number
+		int choose=sc.nextInt();
+		if(choose==1) {
+			System.out.println("Enter Name: ");
+		String name=sc.next();
+			System.out.println("Enter Phone Number: ");
+			long phone_no=sc.nextLong();
+				System.out.println(name);
+				System.out.println(phone_no);
+		//System.out.println(amount);
+			}else if(choose==2 || choose==3 || choose==4 || choose==5) {
+				System.out.println("User doesn't exist...");
+				System.out.println("Select 1 to Create an account!");
+				System.out.println("");
+			}
+			
+			//Switch case
+			System.out.println("Choose Options");
+			System.out.println("1. Create Account");
+			System.out.println("2. Deposit");
+			System.out.println("3. Withdraw");
+			System.out.println("4. Check Balance");
+			System.out.println("5. Exit");
+			System.out.println("");
+			int option=sc.nextInt();
+			
+			
+	//System.out.println(cramount);
+			switch(option) {
+			case 1:
+				
+				case 2:
+				String operString2="Deposit";
+				System.out.println("Enter your amount you want to credit: ");
+				long amount1=sc.nextLong();
+				System.out.print("Your amount is:");
+				System.out.println(cramount+amount1);
+				break;
+				
+				case 3:
+				String operString1="Withdraw";
+				System.out.println("Enter your amount you want to debit");
+				long amount=sc.nextLong();
+				System.out.print("Your amount is:");
+				System.out.println(cramount-amount);
+				break;
+				
+				case 4:
+				String operString3="Available ";
+				System.out.print("Your available balance is: ");
+				System.out.println(cramount);
+				break;	
+			}
+			}
+	}
+}
+		
+	
+

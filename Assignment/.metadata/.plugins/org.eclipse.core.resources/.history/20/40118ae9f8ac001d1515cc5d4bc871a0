@@ -1,0 +1,28 @@
+package com.program;
+
+class Connection {
+	public static void main(String args[]) {
+		try {
+			//Creating Connection
+			String url="jdbc:sqlserver://;localhost=1433;DatabaseName=Users;encrypted=false";
+			String username="sa";
+			String password="Admin#123";
+			
+			Connection con=DriverManager.getConnection(url,username,password);
+			
+			if(con.isclosed()) {
+				System.out.println("Connection closed...");
+				
+			}else {
+				System.out.println("Connection Created");
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+
+	
+
+}

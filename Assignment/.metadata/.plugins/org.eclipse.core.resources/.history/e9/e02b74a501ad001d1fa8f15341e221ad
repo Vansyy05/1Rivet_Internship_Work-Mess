@@ -1,0 +1,31 @@
+package com.program;
+
+import java.sql.DriverManager;
+
+public class Connection{
+	
+	static Connection con;
+	
+	public static Connection Getconnection() {
+	
+			//Creating Connection
+			String url="jdbc:sqlserver://;localhost=1433;DatabaseName=Users";
+			String username="sa";
+			String password="Admin#123";
+			
+			try {
+				
+			con=DriverManager.getConnection(url,username,password);
+			System.out.println("Connection Created");
+			
+			}catch(Exception e) {
+				System.out.println("Connection Failed");
+			e.printStackTrace();
+		}
+		return con;
+	}
+
+
+	
+
+}

@@ -1,0 +1,37 @@
+package com.program;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class Preeepared {
+	public static void main(String args[]) {
+		
+		try {
+			//Create Connnection
+		String url="jdbc:sqlserver://;localhost=1433;DatabaseName=Users;encrypt=false;";
+		String username="sa";
+		String password="Admin#123";
+		
+		Connection con = DriverManager.getConnection(url,username,password);
+		
+		String q="insert into empl(ename,ecity) values (?,?)";
+		
+		//Get preparedStatement object
+		PreparedStatement pstmt=con.prepareStatement(q);
+		
+		//Set 
+		pstmt.setString(1,"Menu","Citty");
+		pstmt.setString(2,"Function","Vitty");
+		
+		pstmt.execute();
+		System.out.println("Inserted...");
+		con.close();
+		
+		
+		
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

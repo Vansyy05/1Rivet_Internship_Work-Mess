@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Jsp_Hibernate_Servlet">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="antlr4-runtime-4.10.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/antlr4-runtime-4.10.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-6.0.6.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/hibernate-commons-annotations-6.0.6.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-runtime-4.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jaxb-runtime-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="byte-buddy-1.12.23.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/byte-buddy-1.12.23.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.transaction-api-2.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jakarta.transaction-api-2.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.activation-api-2.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jakarta.activation-api-2.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="txw2-4.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/txw2-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mssql-jdbc-12.2.0.jre11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/sqljdbc_12.2.0.0_enu/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jandex-3.0.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jandex-3.0.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="istack-commons-runtime-4.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/istack-commons-runtime-4.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beangle-hibernate-core-6.2.0.CR3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/beangle-hibernate-core-6.2.0.CR3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-core-4.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jaxb-core-4.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/apache-tomcat-9.0.72-windows-x64/apache-tomcat-9.0.72/lib/servlet-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.xml.bind-api-4.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jakarta.xml.bind-api-4.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="classmate-1.5.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/classmate-1.5.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.inject-api-2.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jakarta.inject-api-2.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.5.0.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jboss-logging-3.5.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.persistence-api-3.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/jakarta.persistence-api-3.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="angus-activation-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/vanshika.tandel/Downloads/jar_files/angus-activation-1.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="Jsp_Hibernate_Servlet"/>
+                
+        <property name="java-output-path" value="/Jsp_Hibernate_Servlet/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
